@@ -1,0 +1,133 @@
+/* Common css start */
+*{
+    padding:0;
+    outline:o;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* // Common css end */
+
+/* nav section css start */
+nav{
+    background-color: #02918c;
+}
+
+nav > .container > .row{
+    align-items: center;
+}
+
+nav .logo{
+    width: 25%;
+   
+}
+
+nav .logo img{
+    display: block;
+}
+
+nav .menu{
+    width: 75%;
+    text-align: right;
+    
+}
+
+nav .menu ul li{
+    display: inline-block;
+    margin: 12px 0;
+}
+nav .menu ul li a {
+	display: inline-block;
+	font-size: 12px;
+	font-weight: 800;
+	text-transform: uppercase;
+	color: #fff;
+	padding: 10px 25px;
+	transition: all 0.4s linear;
+	border-radius: 25px;
+	
+}
+    
+
+
+nav .menu ul li:hover a{
+    background-Color: #cfc91d;
+}
+
+/* // nav section css end */
+
+/* Banner section css start */
+#banner{
+    text-align: center;
+    padding: 200px 0;
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#banner img{
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+h6{
+    font-size: 30px;
+    color: #fff;
+    padding-bottom: 26px;
+}
+
+h1{
+    font-size: 68px;
+    letter-spacing: 30px;
+    color: #fff;
+    padding-bottom: 20px;
+   font-weight: 800;
+}
+
+p{
+    font-size: 18px;
+    color: #fff;
+    padding-bottom: 50px;
+}
+
+.test  a{
+    font-size: 14px;
+    font-weight: 800;
+    transition: all 0.4s linear;
+    padding: 20px 48px;
+    color: black;
+    background-color: #cfc91d ;
+    display: inline-block;
+
+    
+}
+
+.test:hover a{
+    background-color: green ;
+    color: red;
+}
+
+/* // Banner section css end */
